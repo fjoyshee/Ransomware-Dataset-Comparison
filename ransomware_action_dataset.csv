@@ -1,0 +1,1581 @@
+Ransomware Family,TacticID,TechniqueID,Sub-TechID,Action,Num. CAR,Num. Sigma,Num. ES SIEM,Num. Splunk,Total
+LockBitRansomware,Defense Evasion,T1027,T1027.002,.NET source code contains in memory code execution,0,1,0,0,1
+LokiLockerRansomware,Execution,T1106,No sub-techniques,.NET source code references suspicious native API functions,0,12,6,0,18
+BlackCatRansomware,Execution,T1059,No Suitable Sub-techniques,Accept command line arguments,1,51,64,57,173
+DiavolRansomware,Execution,T1059,No Suitable Sub-techniques,Accept command line arguments,1,51,64,57,173
+EvilNominatusRansomware,Execution,T1059,No Suitable Sub-techniques,Accept command line arguments,1,51,64,57,173
+MementoRansomware,Execution,T1059,No Suitable Sub-techniques,Accept command line arguments,1,51,64,57,173
+NokoyawaRansomware,Execution,T1059,No Suitable Sub-techniques,Accept command line arguments,1,51,64,57,173
+BlueSkyRansomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+HiveRansomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+LilithRansomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+LorenzRansomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+RansomExx,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+SynAckRansomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+Yanluowang Ransomware,Execution,T1129,No sub-techniques,Access PEB ldr_data,0,0,1,0,1
+HaronRansomware,Defense Evasion,T1553,T1553.004,Access system cert storage,1,5,2,2,10
+HaronRansomware,Execution,T1047,No sub-techniques,Access WMI data in .NET,3,40,5,14,62
+MidasRansomware,Execution,T1047,No sub-techniques,Access WMI data in .NET,3,40,5,14,62
+DearCryRansomware,Command and Control,T1071,T1071.001,Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic.,0,29,3,2,34
+OnyxRansomware,Command and Control,T1071,T1071.001,Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic.,0,29,3,2,34
+DearCryRansomware,Impact,T1485,No sub-techniques,"Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources.",0,10,8,19,37
+OnyxRansomware,Execution,T1106,No sub-techniques,Adversaries may interact with the native OS application programming interface (API) to execute behaviors.,0,12,6,0,18
+DearCryRansomware,Collection,T1074,No Suitable Sub-techniques,Adversaries may stage collected data in a central location or directory prior to Exfiltration.,0,2,2,1,5
+CrytoxRansomware,Defense Evasion,T1055,T1055.001,Allocates memory in foreign processes,2,8,0,4,14
+SynAckRansomware,Defense Evasion,T1055,T1055.001,Allocates memory in foreign processes,2,8,0,4,14
+CrytoxRansomware,Privilege Escalation,T1055,T1055.001,Allocates memory in foreign processes,2,8,0,4,14
+SynAckRansomware,Privilege Escalation,T1055,T1055.001,Allocates memory in foreign processes,2,8,0,4,14
+DearCryRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Allocates memory with a write watch (potentially for evading sandboxes),0,0,1,1,2
+OnyxRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Allocates memory with a write watch (potentially for evading sandboxes),0,0,1,1,2
+DearCryRansomware,Discovery,T1497,No Suitable Sub-techniques,Allocates memory with a write watch (potentially for evading sandboxes),0,0,1,1,2
+OnyxRansomware,Discovery,T1497,No Suitable Sub-techniques,Allocates memory with a write watch (potentially for evading sandboxes),0,0,1,1,2
+AgendaRansomware,Discovery,T1010,T1010,Analyze the sample with the simulation cookbook,1,1,0,0,2
+BandarChorRansomware,Discovery,T1010,T1010,Analyze the sample with the simulation cookbook,1,1,0,0,2
+BlackBastaRansomware,Discovery,T1010,T1010,Analyze the sample with the simulation cookbook,1,1,0,0,2
+CrytoxRansomware,Discovery,T1010,T1010,Analyze the sample with the simulation cookbook,1,1,0,0,2
+AgendaRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+BlackBastaRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+Cl0pRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+HaronRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+MidasRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+SunnyDayRansomware,Discovery,T1518,T1518.001,AV process strings found (often used to terminate AV products),1,4,2,0,7
+CrytoxRansomware,Execution,T1203,No sub-techniques,Benign windows process is dropping new PE files,0,21,2,4,27
+AESRTRansomware,Defense Evasion,T1070,T1070.006,Binary contains a suspicious time stamp,0,5,1,0,6
+BlueSkyRansomware,Defense Evasion,T1070,T1070.006,Binary contains a suspicious time stamp,0,5,1,0,6
+ClownicRansomware,Defense Evasion,T1070,T1070.006,Binary contains a suspicious time stamp,0,5,1,0,6
+LockBitRansomware,Defense Evasion,T1070,T1070.006,Binary contains a suspicious time stamp,0,5,1,0,6
+LokiLockerRansomware,Defense Evasion,T1070,T1070.006,Binary contains a suspicious time stamp,0,5,1,0,6
+DearCryRansomware,Defense Evasion,T1027,T1027,Binary may include packed or crypted data,0,83,7,8,98
+LockBitRansomware,Defense Evasion,T1027,T1027,Binary may include packed or crypted data,0,83,7,8,98
+LokiLockerRansomware,Defense Evasion,T1027,T1027,Binary may include packed or crypted data,0,83,7,8,98
+PandoraRansomware,Defense Evasion,T1027,T1027,Binary may include packed or crypted data,0,83,7,8,98
+AESRTRansomware,Defense Evasion,T1027,T1027.002,Binary may include packed or crypted data,0,1,0,0,1
+DearCryRansomware,Defense Evasion,T1027,T1027.002,Binary may include packed or crypted data,0,1,0,0,1
+LockBitRansomware,Defense Evasion,T1027,T1027.002,Binary may include packed or crypted data,0,1,0,0,1
+LokiLockerRansomware,Defense Evasion,T1027,T1027.002,Binary may include packed or crypted data,0,1,0,0,1
+PandoraRansomware,Defense Evasion,T1027,T1027.002,Binary may include packed or crypted data,0,1,0,0,1
+BlackCatRansomware,Defense Evasion,T1548,T1548.002,Bypass UAC via ICMLuaUtil,3,48,11,13,75
+BlackCatRansomware,Privilege Escalation,T1548,T1548.002,Bypass UAC via ICMLuaUtil,3,48,11,13,75
+HaronRansomware,Execution,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+MidasRansomware,Execution,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+HaronRansomware,Persistence,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+MidasRansomware,Persistence,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+HaronRansomware,Privilege Escalation,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+MidasRansomware,Privilege Escalation,T1053,T1053.005,Call schtasks for scheduled task,6,38,9,15,68
+BlackBastaRansomware,Persistence,T1546,T1546.001,Change file default open method,1,3,0,3,7
+CrytoxRansomware,Persistence,T1546,T1546.001,Change file default open method,1,3,0,3,7
+BlackBastaRansomware,Privilege Escalation,T1546,T1546.001,Change file default open method,1,3,0,3,7
+CrytoxRansomware,Privilege Escalation,T1546,T1546.001,Change file default open method,1,3,0,3,7
+HaronRansomware,Execution,T1569,T1569.002,Change service config,4,40,3,5,52
+MidasRansomware,Execution,T1569,T1569.002,Change service config,4,40,3,5,52
+HaronRansomware,Persistence,T1543,T1543.003,Change service config,6,40,10,14,70
+MidasRansomware,Persistence,T1543,T1543.003,Change service config,6,40,10,14,70
+HaronRansomware,Privilege Escalation,T1543,T1543.003,Change service config,6,40,10,14,70
+CrytoxRansomware,Defense Evasion,T1055,T1055.003,Changes memory attributes in foreign processes to executable or writable,0,2,0,0,2
+CrytoxRansomware,Privilege Escalation,T1055,T1055.003,Changes memory attributes in foreign processes to executable or writable,0,2,0,0,2
+Cl0pRansomware,Discovery,T1622,T1622,Check debug,0,0,0,0,0
+HaronRansomware,Discovery,T1083,No sub-techniques,Check if directory exists,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Check if directory exists,0,12,2,1,15
+BlackCatRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+MauiRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+MementoRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Check if file exists,0,12,2,1,15
+MauiRansomware,Discovery,T1082,No sub-techniques,Check OS version,2,14,7,5,28
+RookRansomware,Discovery,T1091,T1091,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+Cl0pRansomware,Discovery,T1119,T1119,Checks for available system drives (often done to infect USB drives),0,5,0,0,5
+AgendaRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+HiveRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+LilithRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+LockBitRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+PLAYRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+PandoraRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+RookRansomware,Discovery,T1120,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,2,1,0,3
+AgendaRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+Cl0pRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+HiveRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+LilithRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+LockBitRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+PLAYRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+PandoraRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+RookRansomware,Initial Access,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+AgendaRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+Cl0pRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+HiveRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+LilithRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+LockBitRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+PLAYRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+PandoraRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+RookRansomware,Lateral Movement,T1091,No sub-techniques,Checks for available system drives (often done to infect USB drives),0,1,0,0,1
+SamsamRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for debuggers (devices),0,0,1,1,2
+SamsamRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for debuggers (devices),0,0,1,1,2
+SamsamRansomware,Discovery,T1518,T1518.001,Checks for debuggers (devices),1,4,2,0,7
+BandarChorRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for debuggers (window names),0,0,1,1,2
+SamsamRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for debuggers (window names),0,0,1,1,2
+BandarChorRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for debuggers (window names),0,0,1,1,2
+SamsamRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for debuggers (window names),0,0,1,1,2
+BandarChorRansomware,Discovery,T1518,T1518.001,Checks for debuggers (window names),1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Checks for debuggers (window names),1,4,2,0,7
+CrytoxRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for kernel code integrity (NtQuerySystemInformation(CodeIntegrityInformation)),0,0,1,1,2
+CrytoxRansomware,Discovery,T1518,T1518.001,Checks for kernel code integrity (NtQuerySystemInformation(CodeIntegrityInformation)),1,4,2,0,7
+HiveRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+LilithRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+OnyxRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+CrytoxRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+HiveRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+OnyxRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),0,0,1,1,2
+CrytoxRansomware,Discovery,T1518,T1518.001,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),1,4,2,0,7
+HiveRansomware,Discovery,T1518,T1518.001,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),1,4,2,0,7
+LilithRansomware,Discovery,T1518,T1518.001,Checks for kernel debuggers (NtQuerySystemInformation(SystemKernelDebuggerInformation)),1,4,2,0,7
+OnyxRansomware,Discovery,T1518,T1518.001,Checks for kernel debuggers(NtQuerySystemInformation(SystemKernelDebuggerInformation)),1,4,2,0,7
+DiavolRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+EvilNominatusRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+KoxicRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+LokiLockerRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+RookRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+SamsamRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+DiavolRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+EvilNominatusRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+KoxicRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+LokiLockerRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+RookRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+SamsamRansomware,Discovery,T1497,No Suitable Sub-techniques,Checks if the current process is being debugged,0,0,1,1,2
+DiavolRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+EvilNominatusRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+KoxicRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+LokiLockerRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+RookRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Checks if the current process is being debugged,1,4,2,0,7
+LockBitRansomware,Discovery,T1082,No sub-techniques,Checks the free space of harddrives,2,14,7,5,28
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,Checks the free space of harddrives,2,14,7,5,28
+PLAYRansomware,Discovery,T1082,No sub-techniques,Checks the free space of harddrives,2,14,7,5,28
+RookRansomware,Discovery,T1082,No sub-techniques,Checks the free space of harddrives,2,14,7,5,28
+HaronRansomware,Discovery,T1016,No Suitable Sub-techniques,Checks the online ip address of the machine,2,8,3,4,17
+SugarRansomware,Discovery,T1016,No Suitable Sub-techniques,Checks the online ip address of the machine,2,8,3,4,17
+BlackCatRansomware,Defense Evasion,T1070,T1070.001,Clear Windows event logs,2,8,3,6,19
+BlackBastaRansomware,Defense Evasion,T1564,T1564.003,Cmd hidden exec,0,2,0,0,2
+HaronRansomware,Discovery,T1016,No Suitable Sub-techniques,Collect network adapter information,2,8,3,4,17
+CrytoxRansomware,Discovery,T1082,No sub-techniques,Collect system fingerprint info,2,14,7,5,28
+BandarChorRansomware,Discovery,T1082,No sub-techniques,Collect system hardware fingerprint info,2,14,7,5,28
+MagniberRansomware,Discovery,T1082,No sub-techniques,Collect system hardware fingerprint info,2,14,7,5,28
+MoishaRansomware,Discovery,T1082,No sub-techniques,Collect system hardware fingerprint info,2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,Collect system hardware fingerprint info,2,14,7,5,28
+LokiLockerRansomware,Collection,T1560,T1560.002,Compress data using GZip in .NET,0,0,0,0,0
+WhiteRabbitRansomware,Collection,T1560,T1560.002,Compress data using GZip in .NET,0,0,0,0,0
+AzovRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+BlackCatRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+BlueSkyRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+DiavolRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+HiveRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+LilithRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+NightSkyRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+NokoyawaRansomware,Defense Evasion,T1027,T1027.005,Contain obfuscated stackstrings,0,4,0,2,6
+BandarChorRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+ChaosRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+DearCryRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+LokiLockerRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+RookRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+SamsamRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+RookRansomware,Discovery,T1497,No sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+BandarChorRansomware,Discovery,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+ChaosRansomware,Discovery,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+DearCryRansomware,Discovery,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+LokiLockerRansomware,Discovery,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+SamsamRansomware,Discovery,T1497,No Suitable Sub-techniques,Contains capabilities to detect virtual machines,0,0,1,1,2
+BandarChorRansomware,Discovery,T1518,T1518.001,Contains capabilities to detect virtual machines,1,4,2,0,7
+ChaosRansomware,Discovery,T1518,T1518.001,Contains capabilities to detect virtual machines,1,4,2,0,7
+LokiLockerRansomware,Discovery,T1518,T1518.001,Contains capabilities to detect virtual machines,1,4,2,0,7
+RookRansomware,Discovery,T1518,T1518.001,Contains capabilities to detect virtual machines,1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Contains capabilities to detect virtual machines,1,4,2,0,7
+AESRTRansomware,Defense Evasion,T1562,T1562.001,Contains functionality to disable the Task Manager (.Net Source),3,74,39,45,161
+ClownicRansomware,Defense Evasion,T1562,T1562.001,Contains functionality to disable the Task Manager (.Net Source),3,74,39,45,161
+MidasRansomware,Impact,T1486,No sub-techniques,Contains functionality to drop file containing file decryption instructions (likely related to ransomware),0,10,1,7,18
+CrytoxRansomware,Defense Evasion,T1036,T1036.005,Create files to system directory rare,1,9,1,1,12
+HaronRansomware,Defense Evasion,T1564,T1564.003,Create hidden child process,0,2,0,0,2
+MidasRansomware,Defense Evasion,T1564,T1564.003,Create hidden child process,0,2,0,0,2
+PandoraRansomware,Defense Evasion,T1564,T1564.003,Create hidden child process,0,2,0,0,2
+MidasRansomware,Execution,T1106,No sub-techniques,Create many processes,0,12,6,0,18
+HaronRansomware,Impact,T1499,T1499.001,Create many processes,0,1,0,0,1
+MidasRansomware,Impact,T1499,T1499.001,Create many processes,0,1,0,0,1
+HaronRansomware,Execution,T1106,No sub-techniques,Create many processes .NET source code references suspicious native API functions,0,12,6,0,18
+AzovRansomware,Persistence,T1546,T1546.003,Create mof file,1,12,1,3,17
+AzovRansomware,Privilege Escalation,T1546,T1546.003,Create mof file,1,12,1,3,17
+CuratorRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Create new key via CryptAcquireContext,0,83,7,8,98
+DearCryRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Create new key via CryptAcquireContext,0,83,7,8,98
+LorenzRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Create new key via CryptAcquireContext,0,83,7,8,98
+SunnyDayRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Create new key via CryptAcquireContext,0,83,7,8,98
+Yanluowang Ransomware,Defense Evasion,T1027,T1027,Create new key via CryptAcquireContext,0,83,7,8,98
+BlackBastaRansomware,Execution,T1106,No sub-techniques,Create new process,0,12,6,0,18
+AzovRansomware,Impact,T1486,No sub-techniques,Create ransom note,0,10,1,7,18
+PandoraRansomware,Impact,T1486,No sub-techniques,Create ransom note,0,10,1,7,18
+AzovRansomware,Execution,T1204,T1204.002,Create sensitive name file,1,26,3,4,34
+LockyRansomware,Execution,T1569,T1569.002,Create service,4,40,3,5,52
+LockyRansomware,Persistence,T1543,T1543.003,Create service,6,40,10,14,70
+LockyRansomware,Privilege Escalation,T1543,T1543.003,Create service,6,40,10,14,70
+OnyxRansomware,Defense Evasion,T1036,T1036.005,Create system name exe,1,9,1,1,12
+MauiRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+BlackCatRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+DearCryRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+HaronRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+PLAYRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+SamsamRansomware,Collection,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+BlackCatRansomware,Credential Access,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+DearCryRansomware,Credential Access,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+HaronRansomware,Credential Access,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+PLAYRansomware,Credential Access,T1056,No Suitable Sub-techniques,Creates a DirectInput object (often for capturing keystrokes),0,0,2,1,3
+SamsamRansomware,Credential Access,T1056,T1056.004,Creates a DirectInput object (often for capturing keystrokes),0,0,0,0,0
+BlackBastaRansomware,Defense Evasion,T1036,T1036.005,Creates a directory in C:\Program Files,1,9,1,1,12
+AESRTRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+AgendaRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+BlackBastaRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+ChaosRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+CrytoxRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+DiavolRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+HaronRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+HiveRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+LilithRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+LockBitRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+LokiLockerRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+LorenzRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+MementoRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+MidasRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+OnyxRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+PandoraRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+RookRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+SynAckRansomware,Defense Evasion,T1055,T1055.003,Creates a process in suspended mode (likely to inject code),0,2,0,0,2
+AESRTRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+AgendaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+BlackBastaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+ChaosRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+CrytoxRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+DiavolRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+HaronRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+HiveRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+KoxicRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+LilithRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+LockBitRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+LokiLockerRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+LorenzRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+MementoRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+MidasRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+OnyxRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+PandoraRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+RookRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+SynAckRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Creates a process in suspended mode (likely to inject code),0,23,13,26,62
+LokiLockerRansomware,Persistence,T1037,T1037.005,Creates a start menu entry (Start Menu\\Programs\\Startup),0,1,0,0,1
+OnyxRansomware,Persistence,T1037,T1037.005,Creates a start menu entry (Start Menu\\Programs\\Startup),0,1,0,0,1
+ChaosRansomware,Persistence,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+LokiLockerRansomware,Persistence,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+OnyxRansomware,Persistence,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1037,T1037.005,Creates a start menu entry (Start Menu\\Programs\\Startup),0,1,0,0,1
+OnyxRansomware,Privilege Escalation,T1037,T1037.005,Creates a start menu entry (Start Menu\\Programs\\Startup),0,1,0,0,1
+ChaosRansomware,Privilege Escalation,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+OnyxRansomware,Privilege Escalation,T1547,T1547.001,Creates a start menu entry (Start Menu\\Programs\\Startup),4,31,9,2,46
+CrytoxRansomware,Defense Evasion,T1055,T1055.003,Creates a thread in another existing process (thread injection),0,2,0,0,2
+CrytoxRansomware,Privilege Escalation,T1055,T1055.003,Creates a thread in another existing process (thread injection),0,2,0,0,2
+ChaosRansomware,Collection,T1115,No sub-techniques,Creates a window with clipboard capturing capabilities,0,6,0,2,8
+OnyxRansomware,Collection,T1115,No sub-techniques,Creates a window with clipboard capturing capabilities,0,6,0,2,8
+AgendaRansomware,Persistence,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+CrytoxRansomware,Persistence,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+LokiLockerRansomware,Persistence,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+MementoRansomware,Persistence,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+CrytoxRansomware,Privilege Escalation,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+MementoRansomware,Privilege Escalation,T1547,T1547.001,Creates an autostart registry key,4,31,9,2,46
+LokiLockerRansomware,Persistence,T1547,T1547.001,Creates an autostart registry key pointing to binary in C:\Windows,4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1547,T1547.001,Creates an autostart registry key pointing to binary in C:\Windows,4,31,9,2,46
+AESRTRansomware,Persistence,T1547,T1547.001,Creates an undocumented autostart registry key,4,31,9,2,46
+ClownicRansomware,Persistence,T1547,T1547.001,Creates an undocumented autostart registry key,4,31,9,2,46
+AESRTRansomware,Privilege Escalation,T1547,T1547.001,Creates an undocumented autostart registry key,4,31,9,2,46
+ClownicRansomware,Privilege Escalation,T1547,T1547.001,Creates an undocumented autostart registry key,4,31,9,2,46
+AgendaRansomware,Persistence,T1547,T1547.001,Creates autostart registry keys with suspicious names,4,31,9,2,46
+ChaosRansomware,Execution,T1053,No Suitable Sub-techniques,Creates COM task schedule object (often to register a task for autostart),0,11,19,28,58
+LokiLockerRansomware,Execution,T1053,No Suitable Sub-techniques,Creates COM task schedule object (often to register a task for autostart),0,11,19,28,58
+ChaosRansomware,Persistence,T1053,No Suitable Sub-techniques,Creates COM task schedule object (often to register a task for autostart),0,11,19,28,58
+LokiLockerRansomware,Persistence,T1053,No Suitable Sub-techniques,Creates COM task schedule object (often to register a task for autostart),0,11,19,28,58
+LokiLockerRansomware,Privilege Escalation,T1053,No Suitable Sub-techniques,Creates COM task schedule object (often to register a task for autostart),0,11,19,28,58
+BandarChorRansomware,Defense Evasion,T1564,T1564.004,Creates files in alternative data streams (ADS),2,19,2,0,23
+DearCryRansomware,Defense Evasion,T1564,T1564.001,Creates files in the recycle bin to hide itself,0,8,5,2,15
+CrytoxRansomware,Defense Evasion,T1564,T1564.001,Creates files in the recycle bin to hide itself,0,8,5,2,15
+SugarRansomware,Defense Evasion,T1564,T1564.001,Creates files in the recycle bin to hide itself,0,8,5,2,15
+LokiLockerRansomware,Defense Evasion,T1036,T1036.005,Creates files in the system32 config directory,1,9,1,1,12
+AESRTRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+AgendaRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+BlackBastaRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+BlueSkyRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+ChaosRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+Cl0pRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+CrytoxRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+CuratorRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+DearCryRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+HiveRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+KoxicRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+LilithRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+LockBitRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+LokiLockerRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+LorenzRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+MementoRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+MoishaRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+OnyxRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+PandoraRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+RookRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+SFileRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+SugarRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+SunnyDayRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+SynAckRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",1,27,16,27,71
+KoxicRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,"Creates files inside various directories and locations (program,system,user,driver etc)",0,23,13,26,62
+AESRTRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+BlackCatRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+ChaosRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+ClownicRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+CrytoxRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+CubaRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+HaronRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+HiveRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+LilithRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+LokiLockerRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+MidasRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+MoishaRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+OnyxRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+SynAckRansomware,Defense Evasion,T1562,T1562.001,"Creates guard pages, often used to prevent reverse engineering and debugging",3,74,39,45,161
+MoishaRansomware,Defense Evasion,T1564,T1564.001,"Creates hidden files, links and/or directories",0,8,5,2,15
+SunnyDayRansomware,Defense Evasion,T1564,T1564.001,"Creates hidden files, links and/or directories",0,8,5,2,15
+CrytoxRansomware,Persistence,T1543,T1543.003,Creates or modifies windows services,6,40,10,14,70
+DecafRansomware,Persistence,T1543,T1543.003,Creates or modifies windows services,6,40,10,14,70
+DecafRansomware,Privilege Escalation,T1543,T1543.003,Creates or modifies windows services,6,40,10,14,70
+HaronRansomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 in .NET,1,13,6,2,22
+LokiLockerRansomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 in .NET,1,13,6,2,22
+MidasRansomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 in .NET,1,13,6,2,22
+MoishaRansomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 in .NET,1,13,6,2,22
+OnyxRansomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 in .NET,1,13,6,2,22
+Yanluowang Ransomware,Defense Evasion,T1140,No sub-techniques,Decode data using Base64 via WinAPI,1,13,6,2,22
+MidasRansomware,Defense Evasion,T1140,No sub-techniques,Decrypt data,1,13,6,2,22
+AvosLockerRansomware,Defense Evasion,T1140,No sub-techniques,Decrypt data using AES via x86 extensions,1,13,6,2,22
+DearCryRansomware,Defense Evasion,T1140,No sub-techniques,Decrypt data using AES via x86 extensions,1,13,6,2,22
+MoishaRansomware,Defense Evasion,T1140,No sub-techniques,Decrypt data using RSA,1,13,6,2,22
+BandarChorRansomware,Defense Evasion,T149,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+AgendaRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+BlackBastaRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+BlueSkyRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+ChaosRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+Cl0pRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+CuratorRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+DearCryRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+HaronRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+LockBitRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+LokiLockerRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+LorenzRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MagniberRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MidasRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MoishaRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+OnyxRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+PLAYRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+PandoraRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+RookRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SamsamRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SugarRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SunnyDayRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SynAckRansomware,Defense Evasion,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+AgendaRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+BandarChorRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+BlackBastaRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+BlueSkyRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+ChaosRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+Cl0pRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+CrytoxRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+CuratorRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+DearCryRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+HaronRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+LokiLockerRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+LorenzRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MagniberRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MidasRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+MoishaRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+OnyxRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+PLAYRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+PandoraRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+RookRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SamsamRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SugarRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+SynAckRansomware,Discovery,T1497,T1497.003,Delays or hinder the dynamic analysis through sleep timer or evasive loops,0,0,0,1,1
+CuratorRansomware,Discovery,T1518,T1518.001,Delays or hinder the dynamic analysis through sleep timer or evasive loops,1,4,2,0,7
+PLAYRansomware,Discovery,T1518,T1518.001,Delays or hinder the dynamic analysis through sleep timer or evasive loops,1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Delays or hinder the dynamic analysis through sleep timer or evasive loops,1,4,2,0,7
+SunnyDayRansomware,Discovery,T1518,T1518.001,Delays or hinder the dynamic analysis through sleep timer or evasive loops,1,4,2,0,7
+BlackBastaRansomware,Impact,T1490,No sub-techniques,Delete all shadow copies of the disk,2,18,6,12,38
+PandoraRansomware,Impact,T1490,No sub-techniques,Delete all shadow copies of the disk,2,18,6,12,38
+HaronRansomware,Defense Evasion,T1112,No sub-techniques,Delete registry key,8,62,5,25,100
+MidasRansomware,Defense Evasion,T1112,No sub-techniques,Delete registry key,8,62,5,25,100
+AESRTRansomware,Defense Evasion,T1112,No sub-techniques,Delete registry value,8,62,5,25,100
+DearCryRansomware,Persistence,T1543,T1543.003,Delete service,6,40,10,14,70
+DearCryRansomware,Privilege Escalation,T1543,T1543.003,Delete service,6,40,10,14,70
+AESRTRansomware,Defense Evasion,T1070,T1070.004,Delete volume shadow copies of the disk,0,12,4,12,28
+BlackCatRansomware,Defense Evasion,T1070,T1070.004,Delete volume shadow copies of the disk,0,12,4,12,28
+OnyxRansomware,Defense Evasion,T1070.,T1070.004,Delete volume shadow copies of the disk,0,12,4,12,28
+OnyxRansomware,Impact,T1486,No sub-techniques,Delete volume shadow copies of the disk,0,10,1,7,18
+BlackCatRansomware,Impact,T1490,No sub-techniques,Delete volume shadow copies of the disk,2,18,6,12,38
+AESRTRansomware,Impact,T1490,No sub-techniques,Delete volume shadow copies of the disk,2,18,6,12,38
+OnyxRansomware,Impact,T1490,No sub-techniques,Delete Windows backup catalog,2,18,6,12,38
+AESRTRansomware,Impact,T1490,No Suitable Sub-techniques,Delete Windows backup catalog,2,18,6,12,38
+CrytoxRansomware,Defense Evasion,T1070,T1070.004,Deletes itself after installation,0,12,4,12,28
+SynAckRansomware,Defense Evasion,T1070,T1070.004,Deletes itself after installation,0,12,4,12,28
+ChaosRansomware,Defense Evasion,T1070,T1070.004,Deletes the backup plan of Windows,0,12,4,12,28
+LokiLockerRansomware,Defense Evasion,T1070,T1070.004,Deletes the backup plan of Windows,0,12,4,12,28
+BianLianRansomware,Command And Control,T1571,No sub-techniques,Detected TCP or UDP traffic on non-standard ports,0,3,1,0,4
+HaronRansomware,Command And Control,T1571,No sub-techniques,Detected TCP or UDP traffic on non-standard ports,0,3,1,0,4
+LorenzRansomware,Command And Control,T1571,No sub-techniques,Detected TCP or UDP traffic on non-standard ports,0,3,1,0,4
+OnyxRansomware,Impact,T1486,No sub-techniques,Disable automatic Windows recovery features,0,10,1,7,18
+AESRTRansomware,Impact,T1490,No Suitable Sub-techniques,Disable automatic Windows recovery features,2,18,6,12,38
+KoxicRansomware,Defense Evasion,T1548,T1548.002,Disable Windows Defender real time protection (registry),3,48,11,13,75
+KoxicRansomware,Defense Evasion,T1562,T1562.001,Disable Windows Defender real time protection (registry),3,74,39,45,161
+KoxicRansomware,Privilege Escalation,T1548,T1548.002,Disable Windows Defender real time protection (registry),3,48,11,13,75
+LokiLockerRansomware,Defense Evasion,T1562,T1562.004,Disables the windows firewall (over ALG),0,13,4,5,22
+AESRTRansomware,Defense Evasion,T1562,T1562.001,Disables the Windows task manager (taskmgr),3,74,39,45,161
+ClownicRansomware,Defense Evasion,T1562,T1562.001,Disables the Windows task manager (taskmgr),3,74,39,45,161
+HaronRansomware,Defense Evasion,T1562,T1562.001,Disables the Windows task manager (taskmgr),3,74,39,45,161
+KoxicRansomware,Defense Evasion,T1562,T1562.001,Disables Windows Defender,3,74,39,45,161
+LokiLockerRansomware,Defense Evasion,T1562,T1562.001,Disables Windows Defender,3,74,39,45,161
+BandarChorRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+HaronRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+KoxicRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+LokiLockerRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+MidasRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+PhobosRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+RookRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+SugarRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+SunnyDayRansomware,Command and Control,T1071,No Suitable Sub-techniques,DNS query manytimes,0,6,11,10,27
+BandarChorRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+HaronRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+KoxicRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+LokiLockerRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+MidasRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+PhobosRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+RookRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+SugarRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+SunnyDayRansomware,Command and Control,T1095,No sub-techniques,DNS query manytimes,0,4,1,2,7
+SugarRansomware,Command And Control,T1568,T1568.002,DNS query manytimes,0,2,3,1,6
+HaronRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+MidasRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+CrytoxRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+CuratorRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+KoxicRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+PandoraRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+RookRansomware,Command And Control,T1105,No sub-techniques,Download and write a file or Downloads files,4,47,9,23,83
+HaronRansomware,Command And Control,T1071,No Suitable Sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,0,6,11,10,27
+SugarRansomware,Command And Control,T1071,No Suitable Sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,0,6,11,10,27
+LockBitRansomware,Command And Control,T1095,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,0,4,1,2,7
+HaronRansomware,Command And Control,T1095,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,0,4,1,2,7
+SugarRansomware,Command And Control,T1095,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,0,4,1,2,7
+LockBitRansomware,Command and Control,T1105,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,4,47,9,23,83
+LockBitRansomware,Command And Control,T1105,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,4,47,9,23,83
+HaronRansomware,Command And Control,T1105,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,4,47,9,23,83
+SugarRansomware,Command And Control,T1105,No sub-techniques,Downloads executable code via HTTP or files from webservers via HTTP,4,47,9,23,83
+LokiLockerRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops a PE files to the windows directory (C:\\Windows) and starts it,1,27,16,27,71
+KoxicRansomware,Defense Evasion,T1070,T1070.004,Drops batch files with force delete cmd (self deletion),0,12,4,12,28
+CrytoxRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops files with a non matching file extension (content does not match to file extension),1,27,16,27,71
+LockBitRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops files with a non matching file extension (content does not match to file extension),1,27,16,27,71
+PLAYRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops files with a non matching file extension (content does not match to file extension),1,27,16,27,71
+DearCryRansomware,Command And Control,T1105,No sub-techniques,Drops interesting files and uses them,4,47,9,23,83
+AgendaRansomware,Defense Evasion,T1036,No sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+BlackBastaRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+ChaosRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+CuratorRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+DearCryRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+OnyxRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+SunnyDayRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,"Drops PE files across diverse system and application directories (including program, system, user, and driver folders)",1,27,16,27,71
+LokiLockerRansomware,Persistence,T1547,T1547.001,Drops PE files to the startup folder (C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup),4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1547,T1547.001,Drops PE files to the startup folder (C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup),4,31,9,2,46
+AgendaRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops PE files to the user root directory (C:\\Documents and Settings\\User or C:\\Users\\User),1,27,16,27,71
+CrytoxRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops PE files to the windows directory (C:\\Windows),1,27,16,27,71
+LokiLockerRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Drops PE files to the windows directory (C:\\Windows),1,27,16,27,71
+LokiLockerRansomware,Execution,T1059,T1059.001,Drops script or batch files to the startup folder (C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup),3,181,7,32,223
+NightSkyRansomware,Defense Evasion,T1070,T1070.004,Empty recycle bin quietly,0,12,4,12,28
+AvosLockerRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+AzovRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+BlackCatRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+BlueSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+CuratorRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+DearCryRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+HaronRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+LockyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+LorenzRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+MauiRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+MidasRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+MoishaRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+NightSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+NokoyawaRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+OnyxRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+RansomExx,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+RedAlertRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+SugarRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+SunnyDayRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+SynAckRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+Yanluowang Ransomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encode data using Base64, XOR, Base64 via WinAPI",0,83,7,8,98
+CrytoxRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Encrypt data,0,83,7,8,98
+CrytoxRansomware,Impact,T1486,No sub-techniques,Encrypt data,0,10,1,7,18
+AESRTRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+AvosLockerRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+BlackCatRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+BlueSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+CuratorRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+DearCryRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+DiavolRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+HaronRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+HiveRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+LilithRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+LorenzRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+MauiRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+MidasRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+MoishaRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+NightSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+OnyxRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+RansomExx,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+RedAlertRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+SunnyDayRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+SynAckRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+Yanluowang Ransomware,Defense Evasion,T1027,No Suitable Sub-techniques,"Encrypt data using various algorithms and multiple encryption methods (AES, Blowfish, Curve25519, RC4, RSA, Salsa20/ChaCha, Sosemanuk, and WinCrypt, atc.)",0,83,7,8,98
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Enumerate disk volumes,2,14,7,5,28
+AvosLockerRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Linux,0,12,2,1,15
+RedAlertRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Linux,0,12,2,1,15
+CuratorRansomware,Discovery,T1082,No sub-techniques,Enumerate files on Windows,2,14,7,5,28
+AESRTRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+AESRTRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+MementoRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+MementoRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+NightSkyRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+NightSkyRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+NokoyawaRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+NokoyawaRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Enumerate files on windows,0,12,2,1,15
+Yanluowang Ransomware,Discovery,T1083,No sub-techniques,Enumerate files on Windows,0,12,2,1,15
+CuratorRansomware,Discovery,T1082,No sub-techniques,Enumerate files recursively,2,14,7,5,28
+DearCryRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+NightSkyRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+NokoyawaRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+Yanluowang Ransomware,Discovery,T1083,No sub-techniques,Enumerate files recursively,0,12,2,1,15
+EvilNominatusRansomware,Discovery,T1010,No sub-techniques,Enumerate gui resources,1,1,0,0,2
+HaronRansomware,Collection,T1039,No sub-techniques,Enumerate LAN resources to collect information,1,2,0,1,4
+PandoraRansomware,Collection,T1039,No sub-techniques,Enumerate LAN resources to collect information,1,2,0,1,4
+SugarRansomware,Collection,T1039,No sub-techniques,Enumerate LAN resources to collect information,1,2,0,1,4
+HaronRansomware,Discovery,T1049,No sub-techniques,Enumerate LAN resources to collect information,1,8,1,6,16
+PandoraRansomware,Discovery,T1049,No sub-techniques,Enumerate LAN resources to collect information,1,8,1,6,16
+SugarRansomware,Discovery,T1049,No sub-techniques,Enumerate LAN resources to collect information,1,8,1,6,16
+HaronRansomware,Discovery,T1083,No sub-techniques,Enumerate LAN resources to collect information,0,12,2,1,15
+SugarRansomware,Discovery,T1083,No sub-techniques,Enumerate LAN resources to collect information,0,12,2,1,15
+HaronRansomware,Discovery,T1135,No sub-techniques,Enumerate LAN resources to collect information,0,7,3,0,10
+PandoraRansomware,Discovery,T1135,No sub-techniques,Enumerate LAN resources to collect information,0,7,3,0,10
+SugarRansomware,Discovery,T1135,No sub-techniques,Enumerate LAN resources to collect information,0,7,3,0,10
+CuratorRansomware,Discovery,T1135,No sub-techniques,Enumerate network shares,0,7,3,0,10
+HaronRansomware,Discovery,T1135,No sub-techniques,Enumerate network shares,0,7,3,0,10
+MidasRansomware,Discovery,T1135,No sub-techniques,Enumerate network shares,0,7,3,0,10
+NokoyawaRansomware,Discovery,T1135,No sub-techniques,Enumerate network shares,0,7,3,0,10
+SunnyDayRansomware,Discovery,T1135,No sub-techniques,Enumerate network shares,0,7,3,0,10
+BlackCatRansomware,Discovery,T1518,No Suitable Sub-techniques,Enumerate network shares,0,2,3,0,5
+BlackCatRansomware,Discovery,T1057,No sub-techniques,Enumerate process modules,2,5,2,0,9
+HaronRansomware,Discovery,T1057,No sub-techniques,Enumerate process modules,2,5,2,0,9
+OnyxRansomware,Discovery,T1057,No sub-techniques,Enumerate process modules,2,5,2,0,9
+BlackCatRansomware,Discovery,T1057,No sub-techniques,Enumerate processes,2,5,2,0,9
+HaronRansomware,Discovery,T1057,No sub-techniques,Enumerate processes,2,5,2,0,9
+MidasRansomware,Discovery,T1057,No sub-techniques,Enumerate processes,2,5,2,0,9
+OnyxRansomware,Discovery,T1057,No sub-techniques,Enumerate processes,2,5,2,0,9
+BlackCatRansomware,Discovery,T1518,T1518,Enumerate processes,0,2,3,0,5
+MidasRansomware,Discovery,T1518,T1518,Enumerate processes,0,2,3,0,5
+OnyxRansomware,Discovery,T1518,T1518,Enumerate processes,0,2,3,0,5
+HaronRansomware,Discovery,T1518,T1518.001,Enumerate processes,1,4,2,0,7
+BlackCatRansomware,Discovery,T1007,No sub-techniques,Enumerate services,2,3,0,0,5
+MoishaRansomware,Discovery,T1007,No sub-techniques,Enumerate services,2,3,0,0,5
+LockyRansomware,Discovery,T1007,No sub-techniques,Enumerate services,2,3,0,0,5
+CuratorRansomware,Discovery,T1082,No sub-techniques,Enumerates the file system,2,14,7,5,28
+BlackBastaRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+CrytoxRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+CubaRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+HiveRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+KoxicRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+LilithRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+LockBitRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+LokiLockerRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+PLAYRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+RookRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+SugarRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Enumerates the file system,0,12,2,1,15
+CrytoxRansomware,Defense Evasion,T1202,No sub-techniques,Executes batch files,0,28,0,4,32
+LokiLockerRansomware,Defense Evasion,T1202,No sub-techniques,Executes batch files,0,28,0,4,32
+CrytoxRansomware,Execution,T1059,No Suitable Sub-techniques,Executes batch files,1,51,64,57,173
+LokiLockerRansomware,Execution,T1059,No Suitable Sub-techniques,Executes batch files,1,51,64,57,173
+RedAlertRansomware,Defense Evasion,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+SunnyDayRansomware,Defense Evasion,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+BianLianRansomware,Execution,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+DeadBoltRansomware,Execution,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+RedAlertRansomware,Execution,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+SunnyDayRansomware,Execution,T1059,T1059.001,Executes commands using a shell command-line interpreter,3,181,7,32,223
+DeadBoltRansomware,Execution,T1059,No Suitable Sub-techniques,"Executes the ""sed"" command used to modify input streams (typically from files or pipes)",1,51,64,57,173
+RedAlertRansomware,Execution,T1059,No Suitable Sub-techniques,"Executes the ""sed"" command used to modify input streams (typically from files or pipes)",1,51,64,57,173
+SunnyDayRansomware,Execution,T1059,No Suitable Sub-techniques,"Executes the ""sed"" command used to modify input streams (typically from files or pipes)",1,51,64,57,173
+BianLianRansomware,Execution,T1059,T1059.004,"Executes the ""sed"" command used to modify input streams (typically from files or pipes)",0,8,18,3,29
+BianLianRansomware,Persistence,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+DeadBoltRansomware,Persistence,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+RedAlertRansomware,Persistence,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+SunnyDayRansomware,Persistence,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+BianLianRansomware,Privilege Escalation,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+DeadBoltRansomware,Privilege Escalation,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+RedAlertRansomware,Privilege Escalation,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+SunnyDayRansomware,Privilege Escalation,T1543,T1543.002,"Executes the ""systemctl"" command used for controlling the systemd system and service manager",0,2,1,0,3
+AzovRansomware,Discovery,T1518,T1518.001,Find antivirus file,1,4,2,0,7
+HaronRansomware,Discovery,T1010,No sub-techniques,Find graphical window,1,1,0,0,2
+HaronRansomware,Discovery,T1057,No sub-techniques,Find process by name,2,5,2,0,9
+MoishaRansomware,Discovery,T1057,No sub-techniques,Find process by name,2,5,2,0,9
+BandarChorRansomware,Discovery,T1010,No sub-techniques,Find window,1,1,0,0,2
+HaronRansomware,Discovery,T1010,No sub-techniques,Find window,1,1,0,0,2
+MidasRansomware,Discovery,T1010,No sub-techniques,"Find windowSample monitors Window changes (e.g. starting applications), analyze the sample with the simulation cookbook",1,1,0,0,2
+SugarRansomware,Impact,T1486,No sub-techniques,Found string related to ransomware,0,10,1,7,18
+Cl0pRansomware,Command And Control,T1090,No Suitable Sub-techniques,Found Tor onion address,0,11,1,3,15
+CubaRansomware,Command And Control,T1090,No Suitable Sub-techniques,Found Tor onion address,0,11,1,3,15
+OnyxRansomware,Command And Control,T1090,No Suitable Sub-techniques,Found Tor onion address,0,11,1,3,15
+RedAlertRansomware,Command And Control,T1090,No Suitable Sub-techniques,Found Tor onion address,0,11,1,3,15
+SugarRansomware,Command And Control,T1090,No Suitable Sub-techniques,Found Tor onion address,0,11,1,3,15
+AgendaRansomware,Command and Control,T1090,T1090.003,Found Tor onion address,0,2,1,0,3
+BlackBastaRansomware,Command and Control,T1090,T1090.003,Found Tor onion address,0,2,1,0,3
+BlackCatRansomware,Command and Control,T1090,T1090.003,Found Tor onion address,0,2,1,0,3
+CuratorRansomware,Discovery,T1082,No sub-techniques,Get common file path,2,14,7,5,28
+AESRTRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+BlackCatRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+EvilNominatusRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+MauiRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+MementoRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+Yanluowang Ransomware,Discovery,T1083,No sub-techniques,Get common file path,0,12,2,1,15
+HaronRansomware,Discovery,T1082,No sub-techniques,Get computername,2,14,7,5,28
+AESRTRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+LorenzRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+NightSkyRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+NokoyawaRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+Yanluowang Ransomware,Discovery,T1082,No sub-techniques,Get disk information,2,14,7,5,28
+AzovRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+BlackBastaRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+BandarChorRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+MoishaRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+PandoraRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+Cl0pRansomware,Collection,T1005,No sub-techniques,Get disk information (ex- size),0,7,2,1,10
+HaronRansomware,Discovery,T1082,No sub-techniques,Get disk size,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Get disk size,2,14,7,5,28
+AzovRansomware,Discovery,T1120,No sub-techniques,Get drive type,0,2,1,0,3
+BlackBastaRansomware,Discovery,T1120,No sub-techniques,Get drive type,0,2,1,0,3
+PandoraRansomware,Discovery,T1120,No sub-techniques,Get drive type,0,2,1,0,3
+SugarRansomware,Discovery,T1120,No sub-techniques,Get drive type,0,2,1,0,3
+DiavolRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+HaronRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+MidasRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+NightSkyRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+NokoyawaRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+Yanluowang Ransomware,Discovery,T1083,No sub-techniques,Get file size,0,12,2,1,15
+Cl0pRansomware,Discovery,T1010,No sub-techniques,Get foreground window,1,1,0,0,2
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+LorenzRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Get hostname,2,14,7,5,28
+HiveRansomware,Execution,T1129,No sub-techniques,Get kernel32 base address,0,0,1,0,1
+LilithRansomware,Execution,T1129,No sub-techniques,Get kernel32 base address,0,0,1,0,1
+CuratorRansomware,Discovery,T1082,No sub-techniques,Get memory capacity,2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,Get memory capacity,2,14,7,5,28
+MauiRansomware,Discovery,T1082,No sub-techniques,Get memory capacity,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Get memory capacity,2,14,7,5,28
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Get number of processors,2,14,7,5,28
+MoishaRansomware,Discovery,T1082,No sub-techniques,Get number of processors,2,14,7,5,28
+Yanluowang Ransomware,Discovery,T1082,No sub-techniques,Get number of processors,2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,Get OS version in .NET,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Get OS version in .NET,2,14,7,5,28
+BlueSkyRansomware,Discovery,T1057,No sub-techniques,Get process heap flags,2,5,2,0,9
+Cl0pRansomware,Discovery,T1082,No sub-techniques,Get screen resolution,2,14,7,5,28
+HaronRansomware,Discovery,T1033,No sub-techniques,Get session integrity level,2,25,4,10,41
+MidasRansomware,Discovery,T1033,No sub-techniques,Get session integrity level,2,25,4,10,41
+BlackCatRansomware,Discovery,T1033,No sub-techniques,Get session user name,2,25,4,10,41
+HaronRansomware,Discovery,T1033,No sub-techniques,Get session user name,2,25,4,10,41
+MidasRansomware,Discovery,T1033,No sub-techniques,Get session user name,2,25,4,10,41
+MoishaRansomware,Discovery,T1033,No sub-techniques,Get session user name,2,25,4,10,41
+OnyxRansomware,Discovery,T1033,No sub-techniques,Get session user name,2,25,4,10,41
+BlackCatRansomware,Discovery,T1087,No Suitable Sub-techniques,Get session user name,0,12,4,27,43
+HaronRansomware,Discovery,T1087,No Suitable Sub-techniques,Get session user name,0,12,4,27,43
+MidasRansomware,Discovery,T1087,No Suitable Sub-techniques,Get session user name,0,12,4,27,43
+MoishaRansomware,Discovery,T1087,No Suitable Sub-techniques,Get session user name,0,12,4,27,43
+OnyxRansomware,Discovery,T1087,No Suitable Sub-techniques,Get session user name,0,12,4,27,43
+PandoraRansomware,Discovery,T1082,No sub-techniques,Get sysinfo,2,14,7,5,28
+AvosLockerRansomware,Discovery,T1082,No sub-techniques,Get system information on Linux,2,14,7,5,28
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Get system information on Windows,2,14,7,5,28
+NightSkyRansomware,Discovery,T1082,No sub-techniques,Get system information on Windows,2,14,7,5,28
+NokoyawaRansomware,Discovery,T1082,No sub-techniques,Get system information on Windows,2,14,7,5,28
+Cl0pRansomware,Discovery,T1614,T1614.001,Get system language,0,1,0,0,1
+AzovRansomware,Discovery,T1124,No sub-techniques,Get systime by api,0,3,0,1,4
+BandarChorRansomware,Discovery,T1124,No sub-techniques,Get systime by api,0,3,0,1,4
+SugarRansomware,Discovery,T1124,No sub-techniques,Get systime by api,0,3,0,1,4
+MidasRansomware,Discovery,T1082,No sub-techniques,Get the current computer name,2,14,7,5,28
+HaronRansomware,Discovery,T1033,No sub-techniques,Get the current user name,2,25,4,10,41
+MidasRansomware,Discovery,T1033,No sub-techniques,Get the current user name,2,25,4,10,41
+OnyxRansomware,Discovery,T1033,No sub-techniques,Get the current user name,2,25,4,10,41
+OnyxRansomware,Discovery,T1082,No sub-techniques,Get the current user name,2,14,7,5,28
+HaronRansomware,Discovery,T1087,T1087.001,Get the current user name,2,11,0,11,24
+MidasRansomware,Discovery,T1087,T1087.001,Get the current user name,2,11,0,11,24
+OnyxRansomware,Discovery,T1087,T1087.001,Get the current user name,2,11,0,11,24
+BlackBastaRansomware,Defense Evasion,T1622,No sub-techniques,Get time manytimes,0,0,0,0,0
+BlackBastaRansomware,Discovery,T1622,No sub-techniques,Get time manytimes,0,0,0,0,0
+HaronRansomware,Discovery,T1124,No sub-techniques,Get time zone,0,3,0,1,4
+AESRTRansomware,Defense Evasion,T1564,T1564.003,Hide graphical window,0,2,0,0,2
+LorenzRansomware,Defense Evasion,T1564,T1564.003,Hide graphical window,0,2,0,0,2
+KoxicRansomware,Defense Evasion,T1218,T1218.002,Hides the Windows control panel from the task bar,0,1,1,1,3
+KoxicRansomware,Defense Evasion,T1562,T1562.001,Hides the Windows control panel from the task bar,3,74,39,45,161
+BlueSkyRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+LokiLockerRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+SamsamRansomware,Defense Evasion,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+BlueSkyRansomware,Discovery,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+LokiLockerRansomware,Discovery,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+SamsamRansomware,Discovery,T1497,No Suitable Sub-techniques,Hides threads from debuggers,0,0,1,1,2
+BlueSkyRansomware,Discovery,T1518,T1518.001,Hides threads from debuggers,1,4,2,0,7
+LokiLockerRansomware,Discovery,T1518,T1518.001,Hides threads from debuggers,1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Hides threads from debuggers,1,4,2,0,7
+CubaRansomware,Defense Evasion,T1036,No sub-techniques,"Icon mismatch, binary includes an Icon from a different legit application in order to fool users",1,27,16,27,71
+CrytoxRansomware,Discovery,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+BlackBastaRansomware,Lateral Movement,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+CubaRansomware,Lateral Movement,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+CuratorRansomware,Lateral Movement,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+DearCryRansomware,Lateral Movement,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+SunnyDayRansomware,Lateral Movement,T1080,No sub-techniques,"Infects executable files (exe, dll, sys, html)",0,0,2,0,2
+CrytoxRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Injects code into the Windows Explorer (explorer.exe),0,23,13,26,62
+CrytoxRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Injects code into the Windows Explorer (explorer.exe),0,23,13,26,62
+OnyxRansomware,Collection,T1056,T1056.004,Install message hook,0,0,0,0,0
+OnyxRansomware,Credential Access,T1056,T1056.004,Install message hook,0,0,0,0,0
+CrytoxRansomware,Collection,T1185,No sub-techniques,Installs a chrome extension,0,1,0,0,1
+CrytoxRansomware,Persistence,T1176,No sub-techniques,Installs a chrome extension,0,1,0,0,1
+MementoRansomware,Credential Access,T1056,No Suitable Sub-techniques,Installs a global keyboard hook,0,0,2,1,3
+BlackBastaRansomware,Collection,T1056,No Suitable Sub-techniques,Installs a raw input device (often for capturing keystrokes),0,0,2,1,3
+PLAYRansomware,Collection,T1056,No Suitable Sub-techniques,Installs a raw input device (often for capturing keystrokes),0,0,2,1,3
+BlackBastaRansomware,Credential Access,T1056,No Suitable Sub-techniques,Installs a raw input device (often for capturing keystrokes),0,0,2,1,3
+PLAYRansomware,Credential Access,T1056,No Suitable Sub-techniques,Installs a raw input device (often for capturing keystrokes),0,0,2,1,3
+BlackCatRansomware,Execution,T1569,T1569.002,Interact with driver via control codes,4,40,3,5,52
+MauiRansomware,Execution,T1569,T1569.002,Interact with driver via control codes,4,40,3,5,52
+BlackBastaRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+BlackCatRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+CuratorRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+DearCryRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+DiavolRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+EvilNominatusRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+LokiLockerRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+LorenzRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+MauiRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+MementoRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+NightSkyRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+NokoyawaRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+PandoraRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+SugarRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+SunnyDayRansomware,Execution,T1129,No sub-techniques,Link function at runtime on Windows,0,0,1,0,1
+BlackCatRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+DearCryRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+DiavolRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+MauiRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+MementoRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+NightSkyRansomware,Execution,T1129,No sub-techniques,Link many functions at runtime,0,0,1,0,1
+MagniberRansomware,Execution,T1129,No sub-techniques,Load third party dll,0,0,1,0,1
+NightSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Manually build AES constants,0,83,7,8,98
+AESRTRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+AgendaRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+BlackBastaRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+BlackCatRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+ChaosRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+CuratorRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+HiveRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+KoxicRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+LilithRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+LokiLockerRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+PandoraRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+RookRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+SunnyDayRansomware,Defense Evasion,T1070,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+OnyxRansomware,Defense Evasion,T1070.,T1070.004,May delete shadow drive data (may be related to ransomware),0,12,4,12,28
+BlueSkyRansomware,Collection,T1560,No Suitable Sub-techniques,May encrypt documents and pictures (Ransomware),0,2,2,6,10
+HiveRansomware,Collection,T1560,No Suitable Sub-techniques,May encrypt documents and pictures (Ransomware),0,2,2,6,10
+LilithRansomware,Collection,T1560,No Suitable Sub-techniques,May encrypt documents and pictures (Ransomware),0,2,2,6,10
+AgendaRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+BlackBastaRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+Cl0pRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+CubaRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+HaronRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+MidasRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+OnyxRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+PLAYRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+RedAlertRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+RookRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+SugarRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+SunnyDayRansomware,Discovery,T1518,T1518.001,May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory),1,4,2,0,7
+AgendaRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+BlackBastaRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+DearCryRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+PLAYRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+SamsamRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+AgendaRansomware,Discovery,T1057,No sub-techniques,May try to detect the Windows Explorer process (often used for injection),2,5,2,0,9
+BlackBastaRansomware,Discovery,T1057,No sub-techniques,May try to detect the Windows Explorer process (often used for injection),2,5,2,0,9
+DearCryRansomware,Discovery,T1057,No sub-techniques,May try to detect the Windows Explorer process (often used for injection),2,5,2,0,9
+PLAYRansomware,Discovery,T1057,No sub-techniques,May try to detect the Windows Explorer process (often used for injection),2,5,2,0,9
+SamsamRansomware,Discovery,T1057,No sub-techniques,May try to detect the Windows Explorer process (often used for injection),2,5,2,0,9
+AgendaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+BlackBastaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+DearCryRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+PLAYRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+SamsamRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,May try to detect the Windows Explorer process (often used for injection),0,23,13,26,62
+HaronRansomware,Defense Evasion,T1562,T1562.001,Modifies the windows firewall,3,74,39,45,161
+LokiLockerRansomware,Defense Evasion,T1562,T1562.001,Modifies the windows firewall,3,74,39,45,161
+MidasRansomware,Defense Evasion,T1562,T1562.001,Modifies the windows firewall,3,74,39,45,161
+AESRTRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+AgendaRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+BlackBastaRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+BlueSkyRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+ChaosRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+ClownicRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+LokiLockerRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+OnyxRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+PandoraRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+RookRansomware,Impact,T1486,No sub-techniques,Modifies user documents (likely ransomware behavior),0,10,1,7,18
+LockyRansomware,Defense Evasion,T1134,No Suitable Sub-techniques,Modify access privileges,0,0,12,5,17
+Yanluowang Ransomware,Defense Evasion,T1134,No Suitable Sub-techniques,Modify access privileges,0,0,12,5,17
+LockyRansomware,Privilege Escalation,T1134,No Suitable Sub-techniques,Modify access privileges,0,0,12,5,17
+Yanluowang Ransomware,Privilege Escalation,T1134,No Suitable Sub-techniques,Modify access privileges,0,0,12,5,17
+BlackBastaRansomware,Defense Evasion,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+BlackCatRansomware,Defense Evasion,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+CrytoxRansomware,Defense Evasion,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+BlackBastaRansomware,Privilege Escalation,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+BlackCatRansomware,Privilege Escalation,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+CrytoxRansomware,Privilege Escalation,T1134,No Suitable Sub-techniques,Modify token privilege,0,0,12,5,17
+OnyxRansomware,Collection,T1115,No sub-techniques,Monitor clipboard content,0,6,0,2,8
+AgendaRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes,3,10,1,2,16
+ChaosRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes,3,10,1,2,16
+CrytoxRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes (often done to protect autostart functionality),3,10,1,2,16
+DearCryRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes (often done to protect autostart functionality),3,10,1,2,16
+KoxicRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes (often done to protect autostart functionality),3,10,1,2,16
+OnyxRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes (often done to protect autostart functionality),3,10,1,2,16
+SugarRansomware,Discovery,T1012,No sub-techniques,Monitors certain registry keys / values for changes (often done to protect autostart functionality),3,10,1,2,16
+AgendaRansomware,Discovery,T1012,No sub-techniques,Monitors registry run keys for changes,3,10,1,2,16
+ChaosRansomware,Discovery,T1012,No sub-techniques,Monitors registry run keys for changes,3,10,1,2,16
+DearCryRansomware,Collection,T1005,No sub-techniques,Not available,0,7,2,1,10
+LokiLockerRansomware,Collection,T1005,No sub-techniques,Not available,0,7,2,1,10
+NokoyawaRansomware,Collection,T1005,No sub-techniques,Not available,0,7,2,1,10
+RookRansomware,Collection,T1005,No sub-techniques,Not available,0,7,2,1,10
+SunnyDayRansomware,Collection,T1005,No sub-techniques,Not available,0,7,2,1,10
+LokiLockerRansomware,Defense Evasion,T1027,T1027.004,Not available,0,5,2,1,8
+LokiLockerRansomware,Defense Evasion,T1036,T1036.005,Not available,1,9,1,1,12
+SynAckRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Not available,0,23,13,26,62
+LockBitRansomware,Defense Evasion,T1134,T1134.001,Not available,0,7,1,3,11
+LockBitRansomware,Defense Evasion,T1497,T1497.001,Not available,0,1,0,0,1
+LockBitRansomware,Defense Evasion,T1497,T1497.003,Not available,0,0,0,1,1
+LokiLockerRansomware,Defense Evasion,T1497,T1497.003,Not available,0,0,0,1,1
+RookRansomware,Defense Evasion,T1497,T1497.003,Not available,0,0,0,1,1
+SunnyDayRansomware,Defense Evasion,T1497,T1497.003,Not available,0,0,0,1,1
+LokiLockerRansomware,Defense Evasion,T1562,T1562.004,Not available,0,13,4,5,22
+LokiLockerRansomware,Defense Evasion,T1564,T1564.001,Not available,0,8,5,2,15
+LokiLockerRansomware,Defense Evasion,T1564,T1564.003,Not available,0,2,0,0,2
+RookRansomware,Defense Evasion,T1564,T1564.003,Not available,0,2,0,0,2
+LokiLockerRansomware,Discovery,T1007,T1007,Not available,2,3,0,0,5
+LokiLockerRansomware,Discovery,T1016,T1016,Not available,2,8,3,4,17
+LokiLockerRansomware,Discovery,T1033,T1033,Not available,2,25,4,10,41
+LokiLockerRansomware,Discovery,T1087,T1087.001,Not available,2,11,0,11,24
+DearCryRansomware,Discovery,T1120,No sub-techniques,Not available,0,2,1,0,3
+LokiLockerRansomware,Discovery,T1120,No sub-techniques,Not available,0,2,1,0,3
+NokoyawaRansomware,Discovery,T1120,No sub-techniques,Not available,0,2,1,0,3
+DearCryRansomware,Discovery,T1124,No sub-techniques,Not available,0,3,0,1,4
+LokiLockerRansomware,Discovery,T1124,No sub-techniques,Not available,0,3,0,1,4
+DearCryRansomware,Discovery,T1497,T1497.001,Not available,0,1,0,0,1
+LockBitRansomware,Discovery,T1497,T1497.001,Not available,0,1,0,0,1
+LockBitRansomware,Discovery,T1497,T1497.003,Not available,0,0,0,1,1
+LokiLockerRansomware,Discovery,T1497,T1497.003,Not available,0,0,0,1,1
+RookRansomware,Discovery,T1497,T1497.003,Not available,0,0,0,1,1
+SunnyDayRansomware,Discovery,T1497,T1497.003,Not available,0,0,0,1,1
+RookRansomware,Discovery,T1518,T1518,Not available,0,2,3,0,5
+SunnyDayRansomware,Discovery,T1518,T1518,Not available,0,2,3,0,5
+DearCryRansomware,Discovery,T1518,T1518.001,Not available,1,4,2,0,7
+CuratorRansomware,Discovery,No technique,No sub-techniques,Not available,0,0,0,0,0
+LokiLockerRansomware,Execution,T1053,T1053.005,Not available,6,38,9,15,68
+LockBitRansomware,Execution,T1559,T1559.001,Not available,0,4,1,1,6
+LokiLockerRansomware,Execution,T1559,T1559.001,Not available,0,4,1,1,6
+RookRansomware,Execution,T1559,T1559.001,Not available,0,4,1,1,6
+SunnyDayRansomware,Execution,T1559,T1559.001,Not available,0,4,1,1,6
+DearCryRansomware,Execution,T1569,T1569.002,Not available,4,40,3,5,52
+RookRansomware,Impact,T1490,No sub-techniques,Not available,2,18,6,12,38
+Yanluowang Ransomware,Impact,T1490,No sub-techniques,Not available,2,18,6,12,38
+LokiLockerRansomware,Persistence,T1053,T1053.005,Not available,6,38,9,15,68
+LokiLockerRansomware,Privilege Escalation,T1053,T1053.005,Not available,6,38,9,15,68
+LockBitRansomware,Privilege Escalation,T1134,T1134.001,Not available,0,7,1,3,11
+RookRansomware,Collection,T1056,T1056.004,Overwrites code with unconditional jumps - possibly settings hooks in foreign process,0,0,0,0,0
+RookRansomware,Credential Access,T1056,T1056.004,Overwrites code with unconditional jumps - possibly settings hooks in foreign process,0,0,0,0,0
+CrytoxRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+HiveRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+LilithRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+LorenzRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+OnyxRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+ChaosRansomware,Collection,T1185,No sub-techniques,Overwrites Mozilla Firefox settings,0,1,0,0,1
+CactusRansomware,Defense Evasion,T1027,T1027.002,Packed with UPX or VMProtect,0,1,0,0,1
+CrytoxRansomware,Defense Evasion,T1027,T1027.002,Packed with UPX or VMProtect,0,1,0,0,1
+KoxicRansomware,Defense Evasion,T1027,T1027.002,Packed with UPX or VMProtect,0,1,0,0,1
+RookRansomware,Defense Evasion,T1027,T1027.002,Packed with UPX or VMProtect,0,1,0,0,1
+AzovRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+BlackBastaRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+BlackCatRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+CuratorRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+MementoRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+NightSkyRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+SugarRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+SunnyDayRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+SynAckRansomware,Execution,T1129,No sub-techniques,Parse PE header,0,0,1,0,1
+BlackCatRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Patch process command line,0,23,13,26,62
+BlackCatRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Patch process command line,0,23,13,26,62
+AESRTRansomware,Defense Evasion,T1027,T1027.002,PE file has an executable .text section which is very likely to contain packed code (zlib compression ratio < 0.3),0,1,0,0,1
+BandarChorRansomware,Defense Evasion,T1027,T1027.002,PE file has section (not .text) which is very likely to contain packed code (zlib compression ratio < 0.011),0,1,0,0,1
+LokiLockerRansomware,Defense Evasion,T1027,T1027.002,PE file has section (not .text) which is very likely to contain packed code (zlib compression ratio < 0.011),0,1,0,0,1
+SamsamRansomware,Defense Evasion,T1027,T1027.002,PE file has section (not .text) which is very likely to contain packed code (zlib compression ratio < 0.011),0,1,0,0,1
+SugarRansomware,Defense Evasion,T1027,T1027.002,PE file has section (not .text) which is very likely to contain packed code (zlib compression ratio < 0.011),0,1,0,0,1
+HaronRansomware,Discovery,T1016,No Suitable Sub-techniques,Performs a network lookup / discovery via ARP,2,8,3,4,17
+MidasRansomware,Discovery,T1016,No Suitable Sub-techniques,Performs a network lookup / discovery via ARP,2,8,3,4,17
+AESRTRansomware,Persistence,T1547,T1547.001,Persist via Run registry key,4,31,9,2,46
+OnyxRansomware,Persistence,T1547,T1547.001,Persist via Run registry key,4,31,9,2,46
+AESRTRansomware,Privilege Escalation,T1547,T1547.001,Persist via Run registry key,4,31,9,2,46
+OnyxRansomware,Privilege Escalation,T1547,T1547.001,Persist via Run registry key,4,31,9,2,46
+LockyRansomware,Execution,T1569,T1569.002,Persist via Windows service,4,40,3,5,52
+LockyRansomware,Persistence,T1543,T1543.003,Persist via Windows service,6,40,10,14,70
+LockyRansomware,Privilege Escalation,T1543,T1543.003,Persist via Windows service,6,40,10,14,70
+LockBitRansomware,Command and Control,T1071,T1071.001,Posts data to webserver,0,29,3,2,34
+LokiLockerRansomware,Command and Control,T1071,T1071.001,Posts data to webserver,0,29,3,2,34
+SugarRansomware,Command and Control,T1071,T1071.001,Posts data to webserver,0,29,3,2,34
+LockBitRansomware,Command And Control,T1095,No sub-techniques,Posts data to webserver,0,4,1,2,7
+LokiLockerRansomware,Command And Control,T1095,No sub-techniques,Posts data to webserver,0,4,1,2,7
+SugarRansomware,Command And Control,T1095,No sub-techniques,Posts data to webserver,0,4,1,2,7
+AgendaRansomware,Collection,T1560,No Suitable Sub-techniques,Public key (encryption) found,0,2,2,6,10
+Cl0pRansomware,Collection,T1560,No Suitable Sub-techniques,Public key (encryption) found,0,2,2,6,10
+DearCryRansomware,Collection,T1560,No Suitable Sub-techniques,Public key (encryption) found,0,2,2,6,10
+NightSkyRansomware,Collection,T1560,No Suitable Sub-techniques,Public key (encryption) found,0,2,2,6,10
+SamsamRansomware,Collection,T1560,No Suitable Sub-techniques,Public key (encryption) found,0,2,2,6,10
+CrytoxRansomware,Discovery,T1082,No sub-techniques,Queries a list of all running drivers,2,14,7,5,28
+DecafRansomware,Discovery,T1082,No sub-techniques,Queries a list of all running drivers,2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,Queries a list of all running drivers,2,14,7,5,28
+AgendaRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+BlueSkyRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+ChaosRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+Cl0pRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+ClownicRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+CrytoxRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+CubaRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+CuratorRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+HaronRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+KoxicRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+LilithRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+LokiLockerRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+MidasRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+MoishaRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+OnyxRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+PandoraRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+RookRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+SFileRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+SamsamRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+SunnyDayRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+SynAckRansomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+Yanluowang Ransomware,Discovery,T1057,No sub-techniques,Queries a list of all running processes,2,5,2,0,9
+KoxicRansomware,Discovery,T1082,No sub-techniques,"Queries BIOS Information (via WMI, Win32_Bios)",2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,"Queries BIOS Information (via WMI, Win32_Bios)",2,14,7,5,28
+KoxicRansomware,Execution,T1047,No sub-techniques,"Queries BIOS Information (via WMI, Win32_Bios)",3,40,5,14,62
+SamsamRansomware,Execution,T1047,No sub-techniques,"Queries BIOS Information (via WMI, Win32_Bios)",3,40,5,14,62
+BandarChorRansomware,Defense Evasion,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+Cl0pRansomware,Defense Evasion,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+SugarRansomware,Defense Evasion,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+BandarChorRansomware,Discovery,T1082,No sub-techniques,Queries disk information (often used to detect virtual machines),2,14,7,5,28
+Cl0pRansomware,Discovery,T1082,No sub-techniques,Queries disk information (often used to detect virtual machines),2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,Queries disk information (often used to detect virtual machines),2,14,7,5,28
+BandarChorRansomware,Discovery,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+Cl0pRansomware,Discovery,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+SugarRansomware,Discovery,T1497,T1497.001,Queries disk information (often used to detect virtual machines),0,1,0,0,1
+BandarChorRansomware,Discovery,T1518,T1518.001,Queries disk information (often used to detect virtual machines),1,4,2,0,7
+Cl0pRansomware,Discovery,T1518,T1518.001,Queries disk information (often used to detect virtual machines),1,4,2,0,7
+SugarRansomware,Discovery,T1518,T1518.001,Queries disk information (often used to detect virtual machines),1,4,2,0,7
+AgendaRansomware,Discovery,T1082,No sub-techniques,Queries keyboard layouts,2,14,7,5,28
+KoxicRansomware,Execution,T1047,No sub-techniques,Queries memory information (via WMI often done to detect virtual machines),3,40,5,14,62
+HaronRansomware,Discovery,T1082,No sub-techniques,"Queries process information (via WMI, Win32_Process)",2,14,7,5,28
+KoxicRansomware,Discovery,T1082,No sub-techniques,"Queries process information (via WMI, Win32_Process)",2,14,7,5,28
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,"Queries process information (via WMI, Win32_Process)",2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,"Queries process information (via WMI, Win32_Process)",2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,"Queries process information (via WMI, Win32_Process)",2,14,7,5,28
+HaronRansomware,Execution,T1047,No sub-techniques,"Queries process information (via WMI, Win32_Process)",3,40,5,14,62
+LokiLockerRansomware,Execution,T1047,No sub-techniques,"Queries process information (via WMI, Win32_Process)",3,40,5,14,62
+MidasRansomware,Execution,T1047,No sub-techniques,"Queries process information (via WMI, Win32_Process)",3,40,5,14,62
+SamsamRansomware,Execution,T1047,No sub-techniques,"Queries process information (via WMI, Win32_Process)",3,40,5,14,62
+KoxicRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive disk information (via WMI, Win32_DiskDrive, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1082,No sub-techniques,"Queries sensitive disk information (via WMI, Win32_DiskDrive, often done to detect virtual machines)",2,14,7,5,28
+KoxicRansomware,Discovery,T1497,T1497.001,"Queries sensitive disk information (via WMI, Win32_DiskDrive, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1518,T1518.001,"Queries sensitive disk information (via WMI, Win32_DiskDrive, often done to detect virtual machines)",1,4,2,0,7
+KoxicRansomware,Execution,T1047,No sub-techniques,"Queries sensitive disk information (via WMI, Win32_DiskDrive, often done to detect virtual machines)",3,40,5,14,62
+KoxicRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive network adapter information (via WMI, Win32_NetworkAdapter, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1497,T1497.001,"Queries sensitive network adapter information (via WMI, Win32_NetworkAdapter, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1518,T1518.001,"Queries sensitive network adapter information (via WMI, Win32_NetworkAdapter, often done to detect virtual machines)",1,4,2,0,7
+KoxicRansomware,Execution,T1047,No sub-techniques,"Queries sensitive network adapter information (via WMI, Win32_NetworkAdapter, often done to detect virtual machines)",3,40,5,14,62
+KoxicRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive physical memory information (via WMI, Win32_PhysicalMemory, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1497,T1497.001,"Queries sensitive physical memory information (via WMI, Win32_PhysicalMemory, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1518,T1518.001,"Queries sensitive physical memory information (via WMI, Win32_PhysicalMemory, often done to detect virtual machines)",1,4,2,0,7
+KoxicRansomware,Execution,T1047,No sub-techniques,"Queries sensitive physical memory information (via WMI, Win32_PhysicalMemory, often done to detect virtual machines)",3,40,5,14,62
+HaronRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+LokiLockerRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+MidasRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+SamsamRansomware,Defense Evasion,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+HaronRansomware,Discovery,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+KoxicRansomware,Discovery,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+LokiLockerRansomware,Discovery,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+MidasRansomware,Discovery,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+SamsamRansomware,Discovery,T1497,T1497.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",0,1,0,0,1
+HaronRansomware,Discovery,T1518,T1518.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",1,4,2,0,7
+KoxicRansomware,Discovery,T1518,T1518.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",1,4,2,0,7
+LokiLockerRansomware,Discovery,T1518,T1518.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",1,4,2,0,7
+MidasRansomware,Discovery,T1518,T1518.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",1,4,2,0,7
+HaronRansomware,Execution,T1047,No sub-techniques,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",3,40,5,14,62
+LokiLockerRansomware,Execution,T1047,No sub-techniques,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",3,40,5,14,62
+MidasRansomware,Execution,T1047,No sub-techniques,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",3,40,5,14,62
+SamsamRansomware,Execution,T1047,No sub-techniques,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machines)",3,40,5,14,62
+KoxicRansomware,Execution,T1047,No Suitable Sub-techniques,"Queries sensitive processor information (via WMI, Win32_Processor, often done to detect virtual machinesQueries process information (via WMI, Win32_Process)",3,40,5,14,62
+AESRTRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+BlueSkyRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+ChaosRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+Cl0pRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+ClownicRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+CrytoxRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+CubaRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+KoxicRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+LockBitRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+MementoRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+MoishaRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+OnyxRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+PandoraRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+RookRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+SFileRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+SynAckRansomware,Discovery,T1082,No sub-techniques,Queries the cryptographic machine GUID,2,14,7,5,28
+BlueSkyRansomware,Discovery,T1082,No sub-techniques,Queries the installation date of Windows,2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,Queries the installation date of Windows,2,14,7,5,28
+BlueSkyRansomware,Discovery,T1082,No sub-techniques,Queries the product ID of Windows,2,14,7,5,28
+AESRTRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+AgendaRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+BandarChorRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+BlackBastaRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+BlueSkyRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+ChaosRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+ClownicRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+CrytoxRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+DecafRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+DiavolRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+HiveRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+KoxicRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+LilithRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+LockBitRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+MementoRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+MoishaRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+NightSkyRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+NokoyawaRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+OnyxRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+PandoraRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+RookRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,"Queries the volume information (name, serial number etc) of a device",2,14,7,5,28
+AESRTRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+DiavolRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+LorenzRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+MementoRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Query environment variable,2,14,7,5,28
+Cl0pRansomware,Defense Evasion,T1497,T1497.001,Query firmware table information (likely to detect VMs),0,1,0,0,1
+Cl0pRansomware,Discovery,T1497,T1497.001,Query firmware table information (likely to detect VMs),0,1,0,0,1
+Cl0pRansomware,Discovery,T1518,T1518.001,Query firmware table information (likely to detect VMs),1,4,2,0,7
+AESRTRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+HaronRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+LockyRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+LorenzRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+MidasRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+OnyxRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry key,3,10,1,2,16
+AESRTRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry value,3,10,1,2,16
+BlackCatRansomware,Discovery,T1012,No sub-techniques,Query or enumerate registry value,3,10,1,2,16
+BlackCatRansomware,Discovery,T1007,No sub-techniques,Query service status,2,3,0,0,5
+OnyxRansomware,Discovery,T1217,No sub-techniques,Read browser history,0,3,0,0,3
+OnyxRansomware,Collection,T1115,No sub-techniques,Read clipboard data,0,6,0,2,8
+OnyxRansomware,Collection,T1005,No sub-techniques,Read many file,0,7,2,1,10
+OnyxRansomware,Credential Access,T1539,No sub-techniques,Read windows cookies,0,2,3,0,5
+OnyxRansomware,Lateral Movement,T1550,T1550.004,Read windows cookies,0,0,0,0,0
+OnyxRansomware,Unknown,T1550,T1550.004,Read windows cookies,0,0,0,0,0
+BianLianRansomware,Discovery,T1082,No sub-techniques,Reads CPU information from /sys indicative of miner or evasive malware,2,14,7,5,28
+DeadBoltRansomware,Discovery,T1082,No sub-techniques,Reads CPU information from /sys indicative of miner or evasive malware,2,14,7,5,28
+RedAlertRansomware,Discovery,T1082,No sub-techniques,Reads CPU information from /sys indicative of miner or evasive malware,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Reads CPU information from /sys indicative of miner or evasive malware,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Reads ini files,2,14,7,5,28
+AESRTRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+AgendaRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+BlackBastaRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+BlueSkyRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+ChaosRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+LockBitRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+LokiLockerRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+LorenzRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+PLAYRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+PandoraRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+RookRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+SugarRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Reads ini files,0,12,2,1,15
+AESRTRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+AgendaRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+BandarChorRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+BlackCatRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+BlueSkyRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+CactusRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+BlackBastaRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+ChaosRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+Cl0pRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+ClownicRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+CrytoxRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+CubaRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+CuratorRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+DearCryRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+DecafRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+DiavolRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+EvilNominatusRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+HaronRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+HiveRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+KoxicRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+LilithRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+LockBitRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+LorenzRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+MauiRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+MementoRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+MidasRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+MoishaRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+NightSkyRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+NokoyawaRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+OnyxRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+PLAYRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+PandoraRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+PhobosRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+RookRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+SFileRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+SugarRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+SynAckRansomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+Yanluowang Ransomware,Discovery,T1082,No sub-techniques,Reads software policies,2,14,7,5,28
+BianLianRansomware,Discovery,T1082,No sub-techniques,Reads system information from the proc file system,2,14,7,5,28
+DeadBoltRansomware,Discovery,T1082,No sub-techniques,Reads system information from the proc file system,2,14,7,5,28
+RedAlertRansomware,Discovery,T1082,No sub-techniques,Reads system information from the proc file system,2,14,7,5,28
+SunnyDayRansomware,Discovery,T1082,No sub-techniques,Reads system information from the proc file system,2,14,7,5,28
+LockBitRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+DecafRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+DiavolRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+HaronRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+LokiLockerRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+NightSkyRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+NokoyawaRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+RookRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+SugarRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+Cl0pRansomware,Discovery,T1018,No sub-techniques,Reads the hosts file,1,15,4,18,38
+MauiRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference AES constants,0,83,7,8,98
+NightSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference AES constants,0,83,7,8,98
+RedAlertRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference AES constants,0,83,7,8,98
+LokiLockerRansomware,Defense Evasion,T1497,T1497.001,Reference anti-VM strings targeting Qemu,0,1,0,0,1
+LokiLockerRansomware,Discovery,T1497,T1497.001,Reference anti-VM strings targeting Qemu,0,1,0,0,1
+RedAlertRansomware,Defense Evasion,T1497,T1497.001,Reference anti-VM strings targeting VMWare,0,1,0,0,1
+RedAlertRansomware,Discovery,T1497,T1497.001,Reference anti-VM strings targeting VMWare,0,1,0,0,1
+MementoRansomware,Collection,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+LokiLockerRansomware,Defense Evasion,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+MementoRansomware,Defense Evasion,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+RansomExx,Defense Evasion,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+LokiLockerRansomware,Discovery,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+MementoRansomware,Discovery,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+RansomExx,Discovery,T1497,T1497.001,Reference anti-VM strings targeting Xen,0,1,0,0,1
+AvosLockerRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+BlackCatRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+DearCryRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+HiveRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+LilithRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+MauiRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+NightSkyRansomware,Defense Evasion,T1027,No Suitable Sub-techniques,Reference Base64 string,0,83,7,8,98
+DiavolRansomware,Defense Evasion,T1218,T1218.010,Registers a DLL,2,16,2,6,26
+BlueSkyRansomware,Defense Evasion,T1027,T1027.005,Resolve function by djb2 hash,0,4,0,2,6
+RansomExx,Defense Evasion,T1027,T1027.005,Resolve function by hash,0,4,0,2,6
+DiavolRansomware,Defense Evasion,T1218,T1218.011,Runs a DLL by calling functions,1,32,3,16,52
+KrusRansomware,Defense Evasion,T1036,No Suitable Sub-techniques,Sample contains symbols with suspicious names,1,27,16,27,71
+BlackBastaRansomware,Collection,T1056,No Suitable Sub-techniques,Sample has functionality to log and monitor keystrokes,0,0,2,1,3
+PLAYRansomware,Collection,T1056,No Suitable Sub-techniques,Sample has functionality to log and monitor keystrokes,0,0,2,1,3
+BlackBastaRansomware,Credential Access,T1056,No Suitable Sub-techniques,Sample has functionality to log and monitor keystrokes,0,0,2,1,3
+MementoRansomware,Credential Access,T1056,No Suitable Sub-techniques,Sample has functionality to log and monitor keystrokes,0,0,2,1,3
+PLAYRansomware,Credential Access,T1056,No Suitable Sub-techniques,Sample has functionality to log and monitor keystrokes,0,0,2,1,3
+AgendaRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+Cl0pRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+HiveRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+LilithRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+LockBitRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+PLAYRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+PandoraRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+RookRansomware,Discovery,T1120,No sub-techniques,Sample is looking for USB drives. Launch the sample with the USB Fake Disk cookbook,0,2,1,0,3
+AgendaRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+BlackCatRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+DearCryRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+MauiRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+NightSkyRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+YanluowangRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample may offer command line options, please run it with the command line option cookbook (it's possible that the command line switches require additional characters like)",1,51,64,57,173
+AgendaRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+BlackCatRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+DearCryRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+MauiRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+NightSkyRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+YanluowangRansomware,Execution,T1059,No Suitable Sub-techniques,"Sample might require command line arguments, analyze it with the command line cookbook",1,51,64,57,173
+AgendaRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+BandarChorRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+BlackBastaRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+Cl0pRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+CrytoxRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+HaronRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+LokiLockerRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+OnyxRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+SamsamRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+SugarRansomware,Discovery,T1010,No sub-techniques,Sample monitors Window changes (e.g. starting applications),1,1,0,0,2
+BianLianRansomware,Discovery,T1083,No sub-techniques,Sample reads /proc/mounts (often used for finding a writable filesystem),0,12,2,1,15
+DeadBoltRansomware,Discovery,T1083,No sub-techniques,Sample reads /proc/mounts (often used for finding a writable filesystem),0,12,2,1,15
+RedAlertRansomware,Discovery,T1083,No sub-techniques,Sample reads /proc/mounts (often used for finding a writable filesystem),0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Sample reads /proc/mounts (often used for finding a writable filesystem),0,12,2,1,15
+BianLianRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Sample tries to set the executable flag,0,0,4,11,15
+KrusRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Sample tries to set the executable flag,0,0,4,11,15
+RedAlertRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Sample tries to set the executable flag,0,0,4,11,15
+SunnyDayRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Sample tries to set the executable flag,0,0,4,11,15
+HaronRansomware,Execution,T1059,No Suitable Sub-techniques,Script started by non script file uses cmd line tools excessively to alter registry or file data,1,51,64,57,173
+CrytoxRansomware,Collection,T1114,T1114.001,Searches for the Microsoft Outlook file path,0,1,0,2,3
+HaronRansomware,Discovery,T1046,No sub-techniques,Sends SSDP (simple service discovery protocol) broadcast queries,2,11,1,0,14
+BlackCatRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+HaronRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+LorenzRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+MidasRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+NightSkyRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+OnyxRansomware,Defense Evasion,T1222,No Suitable Sub-techniques,Set file attributes,0,0,4,11,15
+CrytoxRansomware,Discovery,T1057,No sub-techniques,Snapshot process,2,5,2,0,9
+CrytoxRansomware,Persistence,T1547,T1547.008,Spawns drivers,0,1,0,1,2
+DecafRansomware,Persistence,T1547,T1547.008,Spawns drivers,0,1,0,1,2
+CrytoxRansomware,Privilege Escalation,T1547,T1547.008,Spawns drivers,0,1,0,1,2
+DecafRansomware,Privilege Escalation,T1547,T1547.008,Spawns drivers,0,1,0,1,2
+AESRTRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+AgendaRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+BlackBastaRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+ChaosRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+CrytoxRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+CuratorRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DearCryRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DecafRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DiavolRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+HaronRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+HiveRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LilithRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LockBitRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LokiLockerRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LorenzRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MauiRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MementoRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MidasRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+NightSkyRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+NokoyawaRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+OnyxRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+PandoraRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+PhobosRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+RookRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SFileRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SugarRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SunnyDayRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+Yanluowang Ransomware,Defense Evasion,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+AESRTRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+AgendaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+BlackBastaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+ChaosRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+CrytoxRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+CuratorRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DearCryRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DecafRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+DiavolRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+HaronRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+HiveRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+KoxicRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LilithRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LockBitRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LokiLockerRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+LorenzRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MauiRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MementoRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+MidasRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+NightSkyRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+NokoyawaRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+OnyxRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+PandoraRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+PhobosRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+RookRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SFileRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SugarRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SunnyDayRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+SynAckRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+Yanluowang Ransomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Spawns processes,0,23,13,26,62
+BlackCatRansomware,Impact,T1489,No sub-techniques,Stop service,0,7,6,14,27
+CuratorRansomware,Impact,T1489,No sub-techniques,Stop service,0,7,6,14,27
+SunnyDayRansomware,Impact,T1489,No sub-techniques,Stop service,0,7,6,14,27
+BlackCatRansomware,Persistence,T1543,T1543.003,Stop service,6,40,10,14,70
+CuratorRansomware,Persistence,T1543,T1543.003,Stop service,6,40,10,14,70
+SunnyDayRansomware,Persistence,T1543,T1543.003,Stop service,6,40,10,14,70
+BlackCatRansomware,Privilege Escalation,T1543,T1543.003,Stop service,6,40,10,14,70
+CuratorRansomware,Privilege Escalation,T1543,T1543.003,Stop service,6,40,10,14,70
+SunnyDayRansomware,Privilege Escalation,T1543,T1543.003,Stop service,6,40,10,14,70
+ChaosRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+Cl0pRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+CrytoxRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+CuratorRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+DearCryRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+KoxicRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+LokiLockerRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+LorenzRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+MoishaRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+AgendaRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+OnyxRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+PandoraRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+RookRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SFileRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SugarRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SunnyDayRansomware,Persistence,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+ChaosRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+Cl0pRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+CrytoxRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+CuratorRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+KoxicRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+LokiLockerRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+LorenzRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+MoishaRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+OnyxRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+PandoraRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+RookRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SFileRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SugarRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+SunnyDayRansomware,Privilege Escalation,T1547,T1547.001,Stores files to the Windows startup directory,4,31,9,2,46
+LokiLockerRansomware,Defense Evasion,T1112,No sub-techniques,Stores large binary data to the registry,8,62,5,25,100
+PandoraRansomware,Defense Evasion,T1112,No sub-techniques,Stores large binary data to the registry,8,62,5,25,100
+RookRansomware,Defense Evasion,T1112,No sub-techniques,Stores large binary data to the registry,8,62,5,25,100
+BandarChorRansomware,Discovery,T1497,T1497.001,System mem collect,0,1,0,0,1
+BandarChorRansomware,Defense Evasion,T1497,T1497.001,System memory collect,0,1,0,0,1
+AESRTRansomware,Execution,T1106,No sub-techniques,The process attempted to delete some Shadow Volume Copies (typical in ransomware),0,12,6,0,18
+AESRTRansomware,Discovery,T1057,No sub-techniques,The process attempted to detect a running debugger using common APIs,2,5,2,0,9
+AESRTRansomware,Execution,T1129,No sub-techniques,The process attempted to dynamically load a malicious function,0,0,1,0,1
+AESRTRansomware,Defense Evasion,T1112,No sub-techniques,The process has tried to alter the boot configuration settings (disabling some startup utilities),8,62,5,25,100
+AESRTRansomware,Execution,T1059,No Suitable Sub-techniques,The process has tried to alter the boot configuration settings (disabling some startup utilities),1,51,64,57,173
+AESRTRansomware,Discovery,T1057,No sub-techniques,The process has tried to detect the debugger probing the use of page guards,2,5,2,0,9
+AESRTRansomware,Execution,T1129,No sub-techniques,The process tried to load dynamically one or more functions.,0,0,1,0,1
+Yanluowang Ransomware,Defense Evasion,T1070,T1070.006,Timestomp file,0,5,1,0,6
+AzovRansomware,Discovery,T1083,No sub-techniques,Traverse file once or more,0,12,2,1,15
+BandarChorRansomware,Discovery,T1083,No sub-techniques,Traverse file once or more,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Traverse file once or more,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Traverse file once or more,0,12,2,1,15
+PandoraRansomware,Discovery,T1083,No sub-techniques,Traverse file once or more,0,12,2,1,15
+CrytoxRansomware,Discovery,T1518,T1518,Traverse process,0,2,3,0,5
+DecafRansomware,Discovery,T1082,No sub-techniques,Tries to detect debuggers by setting the trap flag for special instructions,2,14,7,5,28
+DecafRansomware,Discovery,T1518,T1518.001,Tries to detect debuggers by setting the trap flag for special instructions,1,4,2,0,7
+LokiLockerRansomware,Discovery,T1518,T1518.001,Tries to detect sandboxes / dynamic malware analysis system (registry check),1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Tries to detect sandboxes / dynamic malware analysis system (registry check),1,4,2,0,7
+LokiLockerRansomware,Discovery,T1082,No sub-techniques,Tries to detect virtualization through RDTSC time measurements,2,14,7,5,28
+SamsamRansomware,Discovery,T1082,No sub-techniques,Tries to detect virtualization through RDTSC time measurements,2,14,7,5,28
+LokiLockerRansomware,Discovery,T1518,T1518.001,Tries to detect virtualization through RDTSC time measurements,1,4,2,0,7
+SamsamRansomware,Discovery,T1518,T1518.001,Tries to detect virtualization through RDTSC time measurements,1,4,2,0,7
+SamsamRansomware,Discovery,T1082,No sub-techniques,Tries to evade debugger and weak emulator (self modifying code),2,14,7,5,28
+SamsamRansomware,Discovery,T1518,T1518.001,Tries to evade debugger and weak emulator (self modifying code),1,4,2,0,7
+ChaosRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+CrytoxRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+HiveRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+LilithRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+LockBitRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+LorenzRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+OnyxRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+PLAYRansomware,Collection,T1005,No Suitable Sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,7,2,1,10
+ChaosRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+CrytoxRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+HiveRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+LilithRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+LockBitRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+LorenzRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+MauiRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+OnyxRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+PLAYRansomware,Credential Access,T1003,No sub-techniques,"Tries to harvest and steal browser information (history, passwords, etc)",0,23,34,36,93
+AgendaRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+ChaosRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+DearCryRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+MementoRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+OnyxRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+PLAYRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SamsamRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SugarRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SynAckRansomware,Defense Evasion,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+AgendaRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+ChaosRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+Cl0pRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+DearCryRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+DiavolRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+LockBitRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+MementoRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+OnyxRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+PLAYRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SamsamRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SugarRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SynAckRansomware,Persistence,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+ChaosRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+Cl0pRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+DiavolRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+LockBitRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+MementoRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+OnyxRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+PLAYRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SamsamRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SugarRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+SynAckRansomware,Privilege Escalation,T1574,T1574.002,Tries to load missing DLLs,0,42,2,5,49
+BandarChorRansomware,Execution,T1559,T1559.001,Use com interface,0,4,1,1,6
+BlackBastaRansomware,Execution,T1559,T1559.001,Use com interface,0,4,1,1,6
+HaronRansomware,Execution,T1559,T1559.001,Use com interface,0,4,1,1,6
+OnyxRansomware,Execution,T1559,T1559.001,Use com interface,0,4,1,1,6
+PandoraRansomware,Execution,T1559,T1559.001,Use com interface,0,4,1,1,6
+BandarChorRansomware,Defense Evasion,T1564,T1564.004,Use ntfs switched data stream ads,2,19,2,0,23
+SugarRansomware,Command and Control,T1071,T1071.001,Uses a known web browser user agent for HTTP communication,0,29,3,2,34
+AESRTRansomware,Impact,T1490,No sub-techniques,Uses bcdedit to modify the Windows boot settings,2,18,6,12,38
+ChaosRansomware,Impact,T1490,No sub-techniques,Uses bcdedit to modify the Windows boot settings,2,18,6,12,38
+LokiLockerRansomware,Impact,T1490,No sub-techniques,Uses bcdedit to modify the Windows boot settings,2,18,6,12,38
+LorenzRansomware,Execution,T1059,No Suitable Sub-techniques,Uses cmd line tools excessively to alter registry or file data,1,51,64,57,173
+MidasRansomware,Execution,T1059,No Suitable Sub-techniques,Uses cmd line tools excessively to alter registry or file data,1,51,64,57,173
+BianLianRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+DeadBoltRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+HaronRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+MidasRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+MoishaRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+RedAlertRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+SugarRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+SunnyDayRansomware,Command And Control,T1071,T1071.001,Uses HTTPS for network communication,0,29,3,2,34
+BianLianRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+DeadBoltRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+HaronRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+MidasRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+MoishaRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+RedAlertRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+SugarRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+SunnyDayRansomware,Command And Control,T1573,No Suitable Sub-techniques,Uses HTTPS for network communication,0,4,1,2,7
+KoxicRansomware,Discovery,T1016,No Suitable Sub-techniques,Uses ipconfig to modify the Windows network settings,2,8,3,4,17
+HaronRansomware,Defense Evasion,T1562,T1562.001,Uses netsh to modify the Windows network and firewall settings,3,74,39,45,161
+LokiLockerRansomware,Defense Evasion,T1562,T1562.001,Uses netsh to modify the Windows network and firewall settings,3,74,39,45,161
+MidasRansomware,Defense Evasion,T1562,T1562.001,Uses netsh to modify the Windows network and firewall settings,3,74,39,45,161
+KoxicRansomware,Discovery,T1016,No Suitable Sub-techniques,Uses ping.exe to check the status of other devices and networks,2,8,3,4,17
+LokiLockerRansomware,Defense Evasion,T1112,No sub-techniques,Uses reg.exe to modify the Windows registry,8,62,5,25,100
+HaronRansomware,Defense Evasion,T1112,No sub-techniques,Uses reg.exe to modify the Windows registry,8,62,5,25,100
+LorenzRansomware,Defense Evasion,T1112,No sub-techniques,Uses reg.exe to modify the Windows registry,8,62,5,25,100
+MidasRansomware,Defense Evasion,T1112,No sub-techniques,Uses reg.exe to modify the Windows registry,8,62,5,25,100
+Cl0pRansomware,Execution,T1569,T1569.002,Uses sc.exe to modify the status of services,4,40,3,5,52
+HaronRansomware,Execution,T1569,T1569.002,Uses sc.exe to modify the status of services,4,40,3,5,52
+MidasRansomware,Execution,T1569,T1569.002,Uses sc.exe to modify the status of services,4,40,3,5,52
+Cl0pRansomware,Persistence,T1543,T1543.003,Uses sc.exe to modify the status of services,6,40,10,14,70
+HaronRansomware,Persistence,T1543,T1543.003,Uses sc.exe to modify the status of services,6,40,10,14,70
+MidasRansomware,Persistence,T1543,T1543.003,Uses sc.exe to modify the status of services,6,40,10,14,70
+Cl0pRansomware,Privilege Escalation,T1543,T1543.003,Uses sc.exe to modify the status of services,6,40,10,14,70
+HaronRansomware,Privilege Escalation,T1543,T1543.003,Uses sc.exe to modify the status of services,6,40,10,14,70
+HaronRansomware,Execution,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+LokiLockerRansomware,Execution,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+MidasRansomware,Execution,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+HaronRansomware,Persistence,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+LokiLockerRansomware,Persistence,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+MidasRansomware,Persistence,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+HaronRansomware,Privilege Escalation,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+LokiLockerRansomware,Privilege Escalation,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+MidasRansomware,Privilege Escalation,T1053,No Suitable Sub-techniques,Uses schtasks.exe or at.exe to add and modify task schedules,0,11,19,28,58
+KoxicRansomware,Defense Evasion,T1562,T1562.001,Uses taskkill to terminate AV processes,3,74,39,45,161
+HaronRansomware,Defense Evasion,T1562,T1562.001,Uses taskkill to terminate processes,3,74,39,45,161
+KoxicRansomware,Defense Evasion,T1562,T1562.001,Uses taskkill to terminate processes,3,74,39,45,161
+MidasRansomware,Defense Evasion,T1562,T1562.001,Uses taskkill to terminate processes,3,74,39,45,161
+BianLianRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+CerberRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+DeadBoltRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+MoishaRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+RedAlertRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+SunnyDayRansomware,Discovery,T1518,T1518.001,"Uses the ""uname"" system call to query kernel version information (possible evasion)",1,4,2,0,7
+KoxicRansomware,Execution,T1059,No Suitable Sub-techniques,"Very long cmdline option found, this is very uncommon (may be encrypted or packed)",1,51,64,57,173
+LockBitRansomware,Execution,T1059,No Suitable Sub-techniques,"Very long cmdline option found, this is very uncommon (may be encrypted or packed)",1,51,64,57,173
+HaronRansomware,Defense Evasion,T1055,No Suitable Sub-techniques,Write process memory,0,23,13,26,62
+HaronRansomware,Privilege Escalation,T1055,No Suitable Sub-techniques,Write process memory,0,23,13,26,62
+CrytoxRansomware,Persistence,T1547,T1547.001,Write self start registry common,4,31,9,2,46
+CrytoxRansomware,Privilege Escalation,T1547,T1547.001,Write self start registry common,4,31,9,2,46
+AgendaRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+BlackBastaRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+CubaRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+OnyxRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+PandoraRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+RookRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+SugarRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+SunnyDayRansomware,Impact,T1486,No sub-techniques,Writes a notice file (html or txt) to demand a ransom,0,10,1,7,18
+CuratorRansomware,Discovery,T1082,No sub-techniques,Writes ini files,2,14,7,5,28
+BlackBastaRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+ChaosRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+DearCryRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+LokiLockerRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+MoishaRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+OnyxRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+PLAYRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+SugarRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+SunnyDayRansomware,Discovery,T1083,No sub-techniques,Writes ini files,0,12,2,1,15
+CrytoxRansomware,Defense Evasion,T1055,T1055.001,Writes to foreign memory regions,2,8,0,4,14
+SynAckRansomware,Defense Evasion,T1055,T1055.001,Writes to foreign memory regions,2,8,0,4,14
+CrytoxRansomware,Privilege Escalation,T1055,T1055.001,Writes to foreign memory regions,2,8,0,4,14
+SynAckRansomware,Privilege Escalation,T1055,T1055.001,Writes to foreign memory regions,2,8,0,4,14
+LokiLockerRansomware,Defense Evasion,T1127,T1127,Not available,0,17,8,9,34
+QuantumRansomware,Unknown,No technique,No sub-techniques,Not available,0,0,0,0,0
